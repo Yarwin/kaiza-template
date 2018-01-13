@@ -1,0 +1,58 @@
+body {
+	position: relative;
+}
+
+#parallax {
+	display: block;
+	background-color: #f0ffff;
+}
+
+.keyart_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: absolute;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart, .keyart_layer {
+	height: 1080px;
+}
+
+#page {
+	display:flex; 
+	flex-direction: column;
+}
+
+#keyart-1 {
+	background-image: url('./keyframe-1.png');
+}
+
+#keyart-2 {
+	background-image: url('./keyframe-2.png');
+}
+
+#keyart-3 {
+	background-image: url('./keyframe-3.png');
+}
+
+#keyart-4 {
+	background-image: url('./keyframe-4.png');
+}
+
+#keyart-5 {
+	background-image: url('./keyframe-5.png');
+	order: 1;
+}
+
+#dummy-block {
+	z-index: 99;
+	background: #151817;
+	min-height: 1500px;
+	position: relative;
+	}
