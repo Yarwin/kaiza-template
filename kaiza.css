@@ -9,9 +9,9 @@ body {
 
 .keyart_layer {
 	background-position: bottom center;
-	background-size: auto 1038px;
+	background-size: 100vw 1080px;
+	width: 100vw;
 	background-repeat: no-repeat;
-	width: 100%;
 	position: absolute;
 }
 
