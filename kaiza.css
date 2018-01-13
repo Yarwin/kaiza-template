@@ -9,10 +9,12 @@ body {
 
 .keyart_layer {
 	background-position: bottom center;
-	background-size: 100vw 1080px;
-	width: 100vw;
+	background-size: 100vw auto;
+	background-position: 25% 75%;
 	background-repeat: no-repeat;
 	position: absolute;
+	min-width: 100%;
+    min-height: 100%;
 }
 
 .keyart {
@@ -21,7 +23,7 @@ body {
 }
 
 .keyart, .keyart_layer {
-	height: 1080px;
+	height: 100vh;
 }
 
 #page {
