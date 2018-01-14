@@ -23,7 +23,7 @@ body {
 }
 
 .keyart, .keyart_layer {
-	height: 100vh;
+	height: 1080px;
 }
 
 #page {
@@ -32,29 +32,40 @@ body {
 }
 
 #keyart-1 {
-	background-image: url('./keyframe-1.png');
+	background-image: url('./images/keyframe-1.png');
 }
 
 #keyart-2 {
-	background-image: url('./keyframe-2.png');
+	background-image: url('./images/keyframe-2.png');
 }
 
 #keyart-3 {
-	background-image: url('./keyframe-3.png');
+	background-image: url('./images/keyframe-3.png');
 }
 
 #keyart-4 {
-	background-image: url('./keyframe-4.png');
+	background-image: url('./images/keyframe-4.png');
 }
 
 #keyart-5 {
-	background-image: url('./keyframe-5.png');
-	order: 1;
+	background-image: url('./images/keyframe-5.png');
+}
+
+#keyart-6 {
+	background-image: url('./images/keyframe-6.png');
+}
+
+#keyart-7 {
+	background-image: url('./images/keyframe-7.png');
+}
+
+#keyart-9 {
+	background-image: url('./images/keyframe-9.png');
 }
 
 #dummy-block {
 	z-index: 99;
-	background: #151817;
+	background: #F8DFA7;
 	min-height: 1500px;
 	position: relative;
 	}
