@@ -1,5 +1,7 @@
 body {
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 #parallax {
@@ -8,10 +10,10 @@ body {
 }
 
 .keyart_layer {
-	background-position: bottom center;
-	background-size: 100vw auto;
-	background-position: 25% 75%;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
+	object-fit: fill;
 	position: absolute;
 	min-width: 100%;
     min-height: 100%;
@@ -19,11 +21,11 @@ body {
 
 .keyart {
 	position: relative;
-	z-index: 10;
+	z-index: 11;
 }
 
 .keyart, .keyart_layer {
-	height: 1080px;
+	height: 125vh;
 }
 
 #page {
@@ -32,40 +34,57 @@ body {
 }
 
 #keyart-1 {
-	background-image: url('./images/keyframe-1.png');
+	background-image: url('./images/1-troika.png');
+	background-position: 50% 60%;
 }
 
 #keyart-2 {
-	background-image: url('./images/keyframe-2.png');
+	background-image: url('./images/2-powerline.png ');
+	background-position: 50% 60%;
 }
 
 #keyart-3 {
-	background-image: url('./images/keyframe-3.png');
+	background-image: url('./images/3-frametrower.png');
+	background-position: 50% 60%;
 }
 
 #keyart-4 {
-	background-image: url('./images/keyframe-4.png');
+	background-image: url('./images/4-laserhole.png');
+	
 }
 
 #keyart-5 {
-	background-image: url('./images/keyframe-5.png');
+	background-image: url('./images/5-waveI.png');
 }
 
 #keyart-6 {
-	background-image: url('./images/keyframe-6.png');
+	background-image: url('./images/6-waveII.png');
 }
 
 #keyart-7 {
-	background-image: url('./images/keyframe-7.png');
+	background-image: url('./images/7-waveIII.png');
+}
+
+#keyart-8 {
+	background-image: url('./images/8-corpo.png');
 }
 
 #keyart-9 {
-	background-image: url('./images/keyframe-9.png');
+	background-image: url('./images/9-waveIV.png');
+}
+
+#keyart-10 {
+	background-image: url('./images/10-clouds.png');
+}
+
+#keyart-11 {
+	background-image: url('./images/11-sky_may_be.png');
 }
 
 #dummy-block {
 	z-index: 99;
-	background: #F8DFA7;
+	background: #2e1a1f;
 	min-height: 1500px;
 	position: relative;
 	}
+	
