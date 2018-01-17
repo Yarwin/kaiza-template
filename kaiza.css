@@ -4,81 +4,114 @@ body {
 	padding: 0;
 }
 
-#parallax {
-	display: block;
-	background-color: #f0ffff;
-}
 
-.keyart_layer {
+  /* Parallax base styles
+  --------------------------------------------- */
+
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+  .parallax__layer {
+    position: absolute;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	object-fit: fill;
-	position: absolute;
-	min-width: 100%;
-    min-height: 100%;
-}
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
-.keyart {
-	position: relative;
-	z-index: 11;
-}
 
-.keyart, .keyart_layer {
-	height: 125vh;
-}
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+  }
 
-#page {
-	display:flex; 
-	flex-direction: column;
-}
+  .parallax {
+    font-size: 200%;
+  }
+
+  .parallax__layer {
+    padding: 100vh 0;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 
 #keyart-1 {
 	background-image: url('./images/1-troika.png');
 	background-position: 50% 60%;
+	-webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
+
+
 
 #keyart-2 {
 	background-image: url('./images/2-powerline.png ');
 	background-position: 50% 60%;
+	-webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+
 }
 
 #keyart-3 {
 	background-image: url('./images/3-frametrower.png');
 	background-position: 50% 60%;
+	transform: translateZ(-1px) scale(2);
+
 }
 
 #keyart-4 {
 	background-image: url('./images/4-laserhole.png');
-	
+	transform: translateZ(-1px) scale(2);
 }
 
 #keyart-5 {
 	background-image: url('./images/5-waveI.png');
+	transform: translateZ(-2px) scale(3);
 }
 
 #keyart-6 {
 	background-image: url('./images/6-waveII.png');
+	transform: translateZ(-3px) scale(4);
 }
 
 #keyart-7 {
 	background-image: url('./images/7-waveIII.png');
+	transform: translateZ(-3px) scale(4);
 }
 
 #keyart-8 {
 	background-image: url('./images/8-corpo.png');
+	transform: translateZ(-4px) scale(5);
 }
 
 #keyart-9 {
 	background-image: url('./images/9-waveIV.png');
+	transform: translateZ(-5px) scale(6);
 }
 
 #keyart-10 {
 	background-image: url('./images/10-clouds.png');
+	transform: translateZ(-6px) scale(7);
 }
 
 #keyart-11 {
 	background-image: url('./images/11-sky_may_be.png');
+	transform: translateZ(-6px) scale(7);
 }
 
 #dummy-block {
