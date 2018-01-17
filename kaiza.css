@@ -52,6 +52,13 @@ body {
     transform: translate(-50%, -50%);
   }
 
+  .content-cover {
+	margin-top: 30%;
+	width: 100%;
+	height: 100%;
+	background-color: #0f1629;
+}
+
 
 #keyart-1 {
 	background-image: url('./images/1-troika.png');
@@ -120,7 +127,7 @@ body {
 #dummy-block {
 	z-index: 99;
 	background: #2e1a1f;
-	min-height: 1500px;
+	min-height: 2500px;
 	position: relative;
+	padding-top: 200px;
 	}
-	
