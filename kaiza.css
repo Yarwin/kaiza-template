@@ -2,16 +2,22 @@ body {
 	position: relative;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 
   /* Parallax base styles
   --------------------------------------------- */
+  .parallax-container {
+  	overflow: hidden;
+  }
 
   .parallax {
     height: 100vh;
+    width: 100vw;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
+    padding-right: 17px;
     -webkit-perspective: 1px;
     perspective: 1px;
   }
@@ -25,13 +31,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+	scroll-behavior: smooth;
   }
 
-
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px);
-  }
 
   .parallax {
     font-size: 200%;
@@ -39,6 +41,7 @@ body {
 
   .parallax__layer {
     padding: 100vh 0;
+    
   }
 
   .title {
