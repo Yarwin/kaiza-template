@@ -53,118 +53,76 @@ body {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {  
 
-	#keyart-1 {
-		background-image: url('./images/1-troika.png');
-		background-position: 50% 60%;
-		-webkit-transform: translateZ(0);
-	}
-
-	#keyart-2 {
-		background-image: url('./images/2-powerline.png ');
-		background-position: 50% 60%;
-		-webkit-transform: translateZ(-1px) scale(2);
-	}
-
-	#keyart-3 {
-		background-image: url('./images/3-frametrower.png');
-		background-position: 50% 60%;
-		-webkit-transform: translateZ(-1px) scale(2);
-	}
-
-	#keyart-4 {
-		background-image: url('./images/4-laserhole.png');
-		-webkit-transform: translateZ(-1px) scale(2);
-	}
-
-	#keyart-5 {
-		background-image: url('./images/5-waveI.png');
-		-webkit-transform: translateZ(-2px) scale(3);
-	}
-
-	#keyart-6 {
-		background-image: url('./images/6-waveII.png');
-		-webkit-transform: translateZ(-3px) scale(4);
-	}
-
-	#keyart-7 {
-		background-image: url('./images/7-waveIII.png');
-		-webkit-transform: translateZ(-3px) scale(4);
-	}
-
-	#keyart-8 {
-		background-image: url('./images/8-corpo.png');
-		-webkit-transform: translateZ(-4px) scale(5);
-	}
-
-	#keyart-9 {
-		background-image: url('./images/9-waveIV.png');
-		-webkit-transform: translateZ(-5px) scale(6);
-	} 
-
-	#keyart-10 {
-		background-image: url('./images/10-clouds.png');
-		-webkit-transform: translateZ(-10px) scale(11);
-	}
-
-	#keyart-11 {
-		background-image: url('./images/11-sky_may_be.png');
-		-webkit-transform: translateZ(-10px) scale(11);
-	}
-}
-
 #keyart-1 {
-	background-image: url('./images/1-troika.png');
-	background-position: 50% 60%;
+	transform: translateZ(0);
 }
-
-
 
 #keyart-2 {
-	background-image: url('./images/2-powerline.png ');
-	background-position: 50% 60%;
+	-webkit-transform: translate3d(0, 0, -1px) scale(2);
 }
 
 #keyart-3 {
-	background-image: url('./images/3-frametrower.png');
-	background-position: 50% 60%;
+	-webkit-transform: translate3d(0, 0, -4px) scale(5);
+	margin-top: 100vh;
 }
 
 #keyart-4 {
-	background-image: url('./images/4-laserhole.png');
+	-webkit-transform: translate3d(0, 0, -5px) scale(6);
 }
 
 #keyart-5 {
-	background-image: url('./images/5-waveI.png');
+	-webkit-transform: translate3d(0, 0, -7px) scale(8);
 }
 
 #keyart-6 {
-	background-image: url('./images/6-waveII.png');
+	-webkit-transform: translate3d(0, 0, -10px) scale(11);
 }
 
 #keyart-7 {
-	background-image: url('./images/7-waveIII.png');
+	-webkit-transform: translate3d(0, 0, -12px) scale(13);
+}
 }
 
-#keyart-8 {
-	background-image: url('./images/8-corpo.png');
+
+
+#keyart-1 {
+	background-image: url('./images/troika.png');
+	background-position: 50% 60%;
+	padding: 110vh 0;
+
 }
 
-#keyart-9 {
-	background-image: url('./images/9-waveIV.png');
-} 
-
-#keyart-10 {
-	background-image: url('./images/10-clouds.png');
+#keyart-2 {
+	background-image: url('./images/3.png ');
 }
 
-#keyart-11 {
-	background-image: url('./images/11-sky_may_be.png');
+#keyart-3 {
+	background-image: url('./images/4.png');
+	
+}
+
+#keyart-4 {
+	background-image: url('./images/5.png');
+	margin-bottom: 500vh;
+}
+
+#keyart-5 {
+	background-image: url('./images/6.png');
+}
+
+#keyart-6 {
+	background-image: url('./images/tower.png');
+}
+
+#keyart-7 {
+	background-image: url('./images/the-sky-may-be.png');
 }
 
 #dummy-block {
+	display: grid;
 	z-index: 99;
 	background: #2e1a1f;
-	min-height: 2500px;
+	min-height: 1500px;
 	position: relative;
 	padding-top: 200px;
 	}
